@@ -23,11 +23,17 @@ header{
     }
   }
   
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
     .container {
       max-width: 720px;
     }
   }
+
+@media (max-width: 576px) {
+    body {
+        font-size: 1.1rem;
+    }
+}
 
 .button-form {
     color: white;
@@ -71,13 +77,13 @@ input[type="radio"], input[type="checkbox"] {
     width: 1.25rem;
 }
 
-input[type="text"], input[type="email"], input[type="number"], textarea, select{
-    font-size: 1rem;
+input, textarea, select{
+    font-family: inherit;
+    font-size: inherit;
 }
 
 textarea {
     min-height: 7rem;
-    font-family: 'Roboto', sans-serif;
 }
 
 section {
