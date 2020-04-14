@@ -87,7 +87,7 @@ textarea {
     min-height: 7rem;
 }
 
-section {
-    margin-bottom: 2rem;
+fieldset {
+    border-style: none;
 }
 
